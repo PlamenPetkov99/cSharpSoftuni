@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.33423.256
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "convertMetersToKilometers", "convertMetersToKilometers\convertMetersToKilometers.csproj", "{9BB5EFB4-CB64-4433-955F-3A6670B6DA4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poundsToDollars", "poundsToDollars\poundsToDollars.csproj", "{A643F1E6-73D4-4459-A500-3136C5DD1F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exactSumOfRealNumbers", "exactSumOfRealNumbers\exactSumOfRealNumbers.csproj", "{2DA9291A-8DF4-4AC9-8C84-E3F74F7DBB1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9BB5EFB4-CB64-4433-955F-3A6670B6DA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB5EFB4-CB64-4433-955F-3A6670B6DA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB5EFB4-CB64-4433-955F-3A6670B6DA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A643F1E6-73D4-4459-A500-3136C5DD1F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A643F1E6-73D4-4459-A500-3136C5DD1F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A643F1E6-73D4-4459-A500-3136C5DD1F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A643F1E6-73D4-4459-A500-3136C5DD1F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA9291A-8DF4-4AC9-8C84-E3F74F7DBB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA9291A-8DF4-4AC9-8C84-E3F74F7DBB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA9291A-8DF4-4AC9-8C84-E3F74F7DBB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA9291A-8DF4-4AC9-8C84-E3F74F7DBB1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
