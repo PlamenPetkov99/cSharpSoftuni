@@ -13,30 +13,43 @@ namespace topIntegers
             int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int[] topIntegers = new int[array.Length];
 
-            for (int indexCurrentNumber = 0; indexCurrentNumber < array.Length; indexCurrentNumber++)
+            
+
+            for (int i = 0; i < array.Length; i++)
             {
-                for (int indexSumNumber = indexCurrentNumber +1; indexSumNumber < array.Length; indexSumNumber++)
+                bool isValid = true;
+                for (int j = i+1; j <= array.Length-1; j++)
                 {
-                    if(array[indexCurrentNumber] > array[indexSumNumber] )
+                    int firstNumber = array[i];
+                    int secondNumber = array[j];
+
+                    if(firstNumber > secondNumber)
                     {
-                        topIntegers[indexCurrentNumber] = array[indexCurrentNumber];
-                        
+                        isValid = true;
                     }
                     else
                     {
+                        isValid = false;
                         break;
                     }
-                    
+
                 }
-                if(indexCurrentNumber == array.Length - 1)
+
+                if(isValid || i == array.Length - 1)
                 {
-                    topIntegers[indexCurrentNumber] = array[array.Length - 1];
+                    Console.Write($"{array[i]} ");
                 }
+
+                
             }
 
-            Console.WriteLine(string.Join(" ",topIntegers));
-
-
+            foreach (var item in topIntegers)
+            {
+               
+                
+                    //Console.Write($"{item} ");
+                
+            }
 
         }
     }
