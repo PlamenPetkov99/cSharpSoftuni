@@ -111,9 +111,7 @@ namespace teamworkProject
             List<Team> invalidTeams = teams.Where(x => x.Members.Count <= 1).ToList();
 
             //print valid
-            List<Team> orderedValidd = validTeams.OrderBy(x => x.Members.Count).ToList();
-            orderedValidd.Reverse();
-            List<Team> orderedValid = orderedValidd.OrderBy(x => x.TeamName).ToList();
+            List<Team> orderedValid = validTeams.OrderBy(x => x.TeamName).ToList();
 
             foreach (Team item in validTeams)
             {
