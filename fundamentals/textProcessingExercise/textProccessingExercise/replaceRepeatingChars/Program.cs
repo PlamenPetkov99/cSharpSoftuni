@@ -1,4 +1,8 @@
 ﻿using System.Text;
+using System;
+
+
+
 
 namespace replaceRepeatingChars
 {
@@ -8,10 +12,10 @@ namespace replaceRepeatingChars
         {
             char[] word = Console.ReadLine().ToCharArray();
             StringBuilder result = new StringBuilder();
+            char lastChar = default;
 
             foreach(char currentCharacter in word)
             {
-                char lastChar = default;
                 if(currentCharacter == lastChar)
                 {
                     continue;
@@ -24,8 +28,9 @@ namespace replaceRepeatingChars
                 
                 lastChar = currentCharacter;
             }
-
+            
             Console.WriteLine(result);
+            
         }
     }
 }

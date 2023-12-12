@@ -5,15 +5,17 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "validUsername", "validUsername\validUsername.csproj", "{1B3770EC-B89B-4AEA-9523-94CF6692980B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "characterMultiplier", "characterMultiplier\characterMultiplier.csproj", "{4C8F1FAA-78E9-460C-901A-B8149B02CA11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "characterMultiplier", "characterMultiplier\characterMultiplier.csproj", "{4C8F1FAA-78E9-460C-901A-B8149B02CA11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "extractFile", "extractFile\extractFile.csproj", "{12E68627-6415-4C85-B0F3-A4B6AB9806E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "extractFile", "extractFile\extractFile.csproj", "{12E68627-6415-4C85-B0F3-A4B6AB9806E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caesarCipher", "caesarCipher\caesarCipher.csproj", "{AAA4C44E-1BE7-4005-9595-DFCB2F64A0D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caesarCipher", "caesarCipher\caesarCipher.csproj", "{AAA4C44E-1BE7-4005-9595-DFCB2F64A0D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiplyBigNumberUnfinished", "multiplyBigNumber\multiplyBigNumberUnfinished.csproj", "{0F2C7662-1CD7-42E6-B7B7-804FDC2421C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "multiplyBigNumberUnfinished", "multiplyBigNumber\multiplyBigNumberUnfinished.csproj", "{0F2C7662-1CD7-42E6-B7B7-804FDC2421C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "replaceRepeatingChars", "replaceRepeatingChars\replaceRepeatingChars.csproj", "{89CC30B7-D8DF-4A0E-9194-54ABE2AAB096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "replaceRepeatingChars", "replaceRepeatingChars\replaceRepeatingChars.csproj", "{89CC30B7-D8DF-4A0E-9194-54ABE2AAB096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringExplode", "stringExplode\stringExplode.csproj", "{5E8D7E2C-A301-4FE8-9692-97EBC17FE8F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{89CC30B7-D8DF-4A0E-9194-54ABE2AAB096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89CC30B7-D8DF-4A0E-9194-54ABE2AAB096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89CC30B7-D8DF-4A0E-9194-54ABE2AAB096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8D7E2C-A301-4FE8-9692-97EBC17FE8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8D7E2C-A301-4FE8-9692-97EBC17FE8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8D7E2C-A301-4FE8-9692-97EBC17FE8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8D7E2C-A301-4FE8-9692-97EBC17FE8F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
