@@ -118,7 +118,7 @@ namespace mobaChallenger
             }
 
             //players, ordered by total skill in descending order, then ordered by player name in ascending order.
-            playerNameSkill = playerNameSkill.OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary();
+            playerNameSkill = playerNameSkill.OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary(x=>x.Key,x=>x.Value);
             //Foreach player print their position and skill, ordered descending by skill, then ordered by position name in ascending order
             
 
@@ -142,7 +142,7 @@ namespace mobaChallenger
 
                 foreach (var positionSkill in playerNamePositionSkill[playerAndSkill.Key])
                 {
-                    playerNamePositionSkill[playerAndSkill.Key] = playerNamePositionSkill[playerAndSkill.Key].OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary();
+                    playerNamePositionSkill[playerAndSkill.Key] = playerNamePositionSkill[playerAndSkill.Key].OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
                     
                 }
                 foreach (var positionSkill in playerNamePositionSkill[playerAndSkill.Key])
